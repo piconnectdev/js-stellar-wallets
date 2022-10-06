@@ -10,7 +10,7 @@
   "prettier": "@stellar/prettier-config",
   "peerDependencies": {
     "bignumber.js": "*",
-    "stellar-sdk": "^9.0.1"
+    "stellar-sdk": "https://github.com/piconnectdev/js-stellar-sdk"
   },
   "scripts": {
     "prepare": "yarn build ; yarn build:commonjs",
@@ -67,7 +67,7 @@
     "prettier": "^1.17.0",
     "regenerator-runtime": "^0.13.3",
     "sinon": "^7.3.1",
-    "stellar-sdk": "^9.0.1",
+    "stellar-sdk": "https://github.com/piconnectdev/js-stellar-sdk",
     "terser-webpack-plugin": "^2.3.0",
     "ts-loader": "^6.2.1",
     "tsc-watch": "^2.1.2",
